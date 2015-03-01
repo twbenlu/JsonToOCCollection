@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:9_JsonToOCList.xcodeproj">
+      location = "self:9_JsonToOCCollection.xcodeproj">
    </FileRef>
 </Workspace>

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		718C5D101A9DC320002AEA8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C5D0F1A9DC320002AEA8D /* main.m */; };
+		718C5D1A1A9DC404002AEA8D /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C5D171A9DC404002AEA8D /* Jastor.m */; };
+		718C5D1B1A9DC404002AEA8D /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C5D191A9DC404002AEA8D /* JastorRuntimeHelper.m */; };
+		718C5D1E1A9DC42A002AEA8D /* object.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C5D1D1A9DC42A002AEA8D /* object.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		718C5D0C1A9DC320002AEA8D /* 9_JsonToOCList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 9_JsonToOCList; sourceTree = BUILT_PRODUCTS_DIR; };
+		718C5D0C1A9DC320002AEA8D /* 9_JsonToOCCollection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 9_JsonToOCCollection; sourceTree = BUILT_PRODUCTS_DIR; };
 		718C5D0F1A9DC320002AEA8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		718C5D161A9DC404002AEA8D /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		718C5D171A9DC404002AEA8D /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jastor.m; sourceTree = "<group>"; };
+		718C5D181A9DC404002AEA8D /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		718C5D191A9DC404002AEA8D /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JastorRuntimeHelper.m; sourceTree = "<group>"; };
+		718C5D1C1A9DC42A002AEA8D /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		718C5D1D1A9DC42A002AEA8D /* object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = object.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +58,7 @@
 		718C5D0D1A9DC320002AEA8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				718C5D0C1A9DC320002AEA8D /* 9_JsonToOCList */,
+				718C5D0C1A9DC320002AEA8D /* 9_JsonToOCCollection */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +66,12 @@
 		718C5D0E1A9DC320002AEA8D /* 9_JsonToOCList */ = {
 			isa = PBXGroup;
 			children = (
+				718C5D1C1A9DC42A002AEA8D /* object.h */,
+				718C5D1D1A9DC42A002AEA8D /* object.m */,
+				718C5D161A9DC404002AEA8D /* Jastor.h */,
+				718C5D171A9DC404002AEA8D /* Jastor.m */,
+				718C5D181A9DC404002AEA8D /* JastorRuntimeHelper.h */,
+				718C5D191A9DC404002AEA8D /* JastorRuntimeHelper.m */,
 				718C5D0F1A9DC320002AEA8D /* main.m */,
 			);
 			path = 9_JsonToOCList;
@@ -65,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		718C5D0B1A9DC320002AEA8D /* 9_JsonToOCList */ = {
+		718C5D0B1A9DC320002AEA8D /* 9_JsonToOCCollection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 718C5D131A9DC320002AEA8D /* Build configuration list for PBXNativeTarget "9_JsonToOCList" */;
+			buildConfigurationList = 718C5D131A9DC320002AEA8D /* Build configuration list for PBXNativeTarget "9_JsonToOCCollection" */;
 			buildPhases = (
 				718C5D081A9DC320002AEA8D /* Sources */,
 				718C5D091A9DC320002AEA8D /* Frameworks */,
@@ -77,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = 9_JsonToOCList;
+			name = 9_JsonToOCCollection;
 			productName = 9_JsonToOCList;
-			productReference = 718C5D0C1A9DC320002AEA8D /* 9_JsonToOCList */;
+			productReference = 718C5D0C1A9DC320002AEA8D /* 9_JsonToOCCollection */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 718C5D071A9DC320002AEA8D /* Build configuration list for PBXProject "9_JsonToOCList" */;
+			buildConfigurationList = 718C5D071A9DC320002AEA8D /* Build configuration list for PBXProject "9_JsonToOCCollection" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				718C5D0B1A9DC320002AEA8D /* 9_JsonToOCList */,
+				718C5D0B1A9DC320002AEA8D /* 9_JsonToOCCollection */,
 			);
 		};
 /* End PBXProject section */
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718C5D1B1A9DC404002AEA8D /* JastorRuntimeHelper.m in Sources */,
+				718C5D1A1A9DC404002AEA8D /* Jastor.m in Sources */,
+				718C5D1E1A9DC42A002AEA8D /* object.m in Sources */,
 				718C5D101A9DC320002AEA8D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,21 +220,21 @@
 		718C5D141A9DC320002AEA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 9_JsonToOCCollection;
 			};
 			name = Debug;
 		};
 		718C5D151A9DC320002AEA8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 9_JsonToOCCollection;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		718C5D071A9DC320002AEA8D /* Build configuration list for PBXProject "9_JsonToOCList" */ = {
+		718C5D071A9DC320002AEA8D /* Build configuration list for PBXProject "9_JsonToOCCollection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				718C5D111A9DC320002AEA8D /* Debug */,
@@ -225,13 +243,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		718C5D131A9DC320002AEA8D /* Build configuration list for PBXNativeTarget "9_JsonToOCList" */ = {
+		718C5D131A9DC320002AEA8D /* Build configuration list for PBXNativeTarget "9_JsonToOCCollection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				718C5D141A9DC320002AEA8D /* Debug */,
 				718C5D151A9DC320002AEA8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
